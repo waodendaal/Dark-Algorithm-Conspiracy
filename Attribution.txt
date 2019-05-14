@@ -1,0 +1,1 @@
+This website uses code from Codrops (https://github.com/codrops/CSSGlitchEffect) made available under MIT open source license. Thank you for making your work available! 
