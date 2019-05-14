@@ -43,7 +43,7 @@
 	/*! font-size: 1.5em; */
 	/*! top: 4em; */
 	/*! right: 10vw; */
-
+	color:white;
 	/*! font-weight: 400; */
 	animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.25);
 }
