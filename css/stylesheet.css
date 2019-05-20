@@ -3,18 +3,20 @@ body {
     color: white;
 }
 .container_custom {
-  margin-top: 10%;
+  margin-top: 5%;
     text-align: center
 }
 
 h1 {
   font-size: 45px;
   line-height:2;
+  margin-bottom: 0 !important;
 }
 
 .logo_center {
   display:flex;
   justify-content: center;
+  margin-bottom: 15px;
 }
 
 .text {
@@ -138,6 +140,7 @@ h1 {
   font-family: 'Jura', sans-serif;
   color: #6FCBD3;
   text-shadow: 2px 2px 5px rgba(111, 203, 211, 1); 
+  margin: 0px !important;
 }
 
 .glitch__imglogo {
@@ -490,3 +493,16 @@ h1 {
 	}
 }
 
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .content__textStatic {
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+
+}
