@@ -14,7 +14,8 @@ body {
 h1 {
   font-size: 45px;
   line-height:2;
-  margin-bottom: 0 !important;
+	margin-bottom: 0 !important;
+	opacity: 0.8;
 }
 
 .logo_center {
