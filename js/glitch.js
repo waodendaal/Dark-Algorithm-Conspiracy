@@ -70,7 +70,7 @@ function rand(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 function getRandomLetter() {
- var alphabet = ['<','=','%','>','monitor(user)','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+ var alphabet = ['<','=','%','>','/','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
  return alphabet[rand(0,alphabet.length - 1)]
 }
 function getRandomWord(word) {
