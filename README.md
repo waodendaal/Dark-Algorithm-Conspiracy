@@ -1,4 +1,3 @@
 # Dark Algorithm Conspiracy
->Hello world
 
-> I've been watching you
+> You are being watched.
