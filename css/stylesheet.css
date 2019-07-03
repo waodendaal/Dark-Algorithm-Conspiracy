@@ -123,13 +123,13 @@ h1 {
 .modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
+	z-index:2222;
 	padding-top: 100px; /* Location of the box */
 	left: 0;
 	top: 0;
 	width: 100%; /* Full width */
 	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
+	overflow: visible;
   
   }
   
@@ -137,17 +137,29 @@ h1 {
   .modal-content {
 	background-color: #fefefe;
 	margin: auto;
-	padding: 20px;
 	border: 1px solid #888;
-	width: 80%;
+	width:max-content;
+}
+  .modal_bar {
+	  width:100%;
+	  height:30px;
+	  background-color:#adc8c7;
+  }
+
+  .modal-content img {
+	  width:50vw;
+	  
   }
   
   /* The Close Button */
   .close {
-	color: #aaaaaa;
+	color:white;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
+	position: absolute;
+	right: 10px;
+	top: 0;
   }
   
   .close:hover,
@@ -186,6 +198,7 @@ h1 {
   color: #6FCBD3;
   text-shadow: 2px 2px 5px rgba(111, 203, 211, 1); 
   margin: 0px !important;
+  cursor: pointer;
 }
 
 .glitch__imglogo {
