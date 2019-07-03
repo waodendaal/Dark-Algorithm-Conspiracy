@@ -118,6 +118,13 @@ h1 {
 	}
 }
 
+@media screen and (max-width: 880px) {
+	.modal-content img {
+		width:80vw;
+		
+	}
+}
+
 /* Modal */
 
 .modal {
